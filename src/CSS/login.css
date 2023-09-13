@@ -1,0 +1,30 @@
+.bg-blue{
+    background-color: rgb(69, 69, 255);
+}
+.bdr-2{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.col-blue{
+    color: rgb(69, 69, 255);
+}
+.jcf{
+    justify-content: space-evenly;
+}
+input[type=password]:focus .dis-bl{
+    display: block;
+    /* transform: translate(0px , -40px); */
+}
+.vh80{
+    height: 85vh;
+}
+
+@media screen and (max-width:550px) {
+    .vh80{
+        height: 35vh;
+    }
+}
+@media screen and (max-width:900px) and (min-width:551px){
+    .vh80{
+        height: 60vh;
+    }
+}

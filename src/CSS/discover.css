@@ -1,0 +1,31 @@
+.ft-12{
+    font-size: 12px;
+}
+.columns5{
+    grid-template-columns: repeat(5,1fr);
+}
+.w-90{
+    width: 90%;
+}
+.h-27{
+    height: 27rem;
+}
+.h-27 a{
+    height: 100%;
+}
+@media screen and (max-width:900px) {
+    .columns5{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .h-27{
+        height: 24rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .columns5{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .h-27{
+        height: 21rem;
+    }
+}

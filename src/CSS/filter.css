@@ -1,0 +1,35 @@
+.round{
+    border-radius: 99999px;
+}
+.w100p{
+    width: 100px;
+}
+.w120p{
+    width: 120px;
+}
+.max-ht{
+    max-height: 400px;
+    /* overflow-y: scroll; */
+}
+@media screen and (max-width:450px) {
+    .md-col{
+        flex-direction: column;
+    }
+    .w-25{
+        width: 95% !important;
+        
+    }
+    .mdpx-3{
+        padding: 0px 1rem;
+    }
+    
+}
+@media screen and (max-width:900px) {
+    .md-col{
+        flex-direction: column;
+    }
+    .w-25{
+        width: 95% !important;
+        
+    }
+}

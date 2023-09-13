@@ -1,0 +1,10 @@
+@media screen and (max-width:550px) {
+    .bdr-10{
+        width: 320px !important;
+        height: 190px !important;
+    }
+    .md-px{
+        padding: 0px 1rem !important;
+    }
+    
+}

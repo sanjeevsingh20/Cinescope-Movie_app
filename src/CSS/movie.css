@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width:750px) {
+    .mdcols{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 5px 0px;
+    }
+}

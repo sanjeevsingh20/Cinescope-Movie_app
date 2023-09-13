@@ -1,0 +1,21 @@
+/* .w23-no */
+.dis-none{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .w23-no {
+        display: none;
+    }
+    .dis-none{
+        display: block;
+    }
+    
+    .js-spc{
+        justify-content: space-around;
+    }
+    .w-70{
+        margin:0em  1.5em;
+    }
+    
+}
